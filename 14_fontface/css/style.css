@@ -1,0 +1,20 @@
+@font-face {
+	src: url(../font/PressStart2P-Regular.ttf);
+	font-family: 'PressStart2P-Regular';
+	font-weight: normal;
+}
+
+.heading h1 {
+	font-size: 50px;
+	font-weight: normal;
+	font-family: 'PressStart2P-Regular';
+
+}
+
+.parag p {
+	font-family: 'PressStart2P-Regular';
+}
+
+.paragTwo p {
+	font-family: 'PressStart2P-Regular';
+}

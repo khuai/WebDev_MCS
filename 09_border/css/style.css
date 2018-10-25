@@ -1,0 +1,13 @@
+div.bordered {
+	width: 500px;
+	height: 500px;
+	border-top: 5px dashed red;
+	border-left: 5px solid green;
+	border-bottom: double 10px yellow;
+	border-right: dotted 5px blue;
+	border-radius: 20%;
+	/*background-color: red;
+	border-width: 2px;
+	border-color: navy;
+	border-style: dashed; */
+}

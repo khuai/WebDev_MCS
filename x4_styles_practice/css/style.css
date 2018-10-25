@@ -1,0 +1,71 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Ultra');
+
+h1, h2, p, a, span {
+	text-transform: uppercase;
+	color: white;
+	font-size: 18px;
+	font-family: Ultra;
+	letter-spacing: 0.3px;
+}
+
+.headerContent {
+	background-color: DarkTurquoise;
+	padding-left: 20px;
+	height: 100px;
+}
+
+.headerTitle {
+	line-height: 100px;
+	font-size: 32px;
+}
+
+.bodyImage {
+	background-color: DarkCyan;
+	background-image: url(../img/noun_mandrill_white.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 350px 150px;
+	height: 200px;
+}
+
+.bodyLinks {
+	background-color: DarkTurquoise;
+	padding-left: 20px;
+	height: 40px;
+	line-height: 40px;
+}
+
+.bodyLinks a {
+	text-decoration: none;
+}
+
+.bodyText {
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+.bodyText h2 {
+	color: black;
+	line-height: 40px;
+}
+
+.bodyText p {
+	width: 800px;
+	color: black;
+	font-family: Quicksand;
+	text-transform: none;
+	letter-spacing: normal;
+}
+
+
+.footerContent {
+	background-color: DarkTurquoise;
+	padding-left: 20px;
+	height: 100px;
+}
+
+.footerTitle {
+	line-height: 100px;
+}
