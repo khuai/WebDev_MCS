@@ -1,0 +1,36 @@
+@import url(reset.css);
+
+.sectionOne {
+	font-size: 0px;
+	width: 400px;
+}
+
+div {
+	font-size: 16px;
+	color: white;
+	width: 200px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.one {
+	height: 200px;
+	background-color: black;
+}
+
+.two {
+	height: 200px;
+	background-color: green;
+}
+
+a {
+	width: 200px;
+	height: 100px;
+	display: block;
+	margin: auto;
+}
+
+img {
+	width: 100px;
+	display: block;
+}
