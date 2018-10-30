@@ -1,0 +1,166 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Playfair+Display');
+
+.header {
+	height: 100px;
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0));
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.navLogo {
+	display: inline-block;
+	align-self: flex-start;
+	margin: 10px 10px;
+	flex-basis: 250px;
+	flex-grow: 0;
+}
+
+.navItem {
+	display: inline-block;
+	flex-basis: 180px;
+	margin-right: 20px;
+	/*padding: 0px 10px;*/
+	flex-grow: 0;
+	text-transform: uppercase;
+	font-size: 28px;
+}
+
+.navItem.empty {
+	width: 90%;
+	display: inline-block;
+	flex-grow: 99;
+	background-color: Burlywood;
+}
+
+a {
+	color: #fff;
+	font-family: "Permanent Marker", sans-serif;
+	text-decoration: none;
+}
+
+a:link {
+
+}
+
+a:hover {
+	color: DarkSlateGray;
+}
+
+a:visited {
+}
+
+p {
+	font-family: "Playfair Display", serif;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+.heroImage {
+	height: 500px;
+	background-image: url(../img/hero.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-width: 700px;
+	display: flex;
+}
+
+.heroMoto {
+	margin: auto;
+	font-size: 144px;
+	color: PaleGoldenrod;
+	letter-spacing: 20px;
+	font-weight: 700;
+}
+
+.bodyContent {
+	display: flex;
+	flex-direction: column;
+	padding: 40px 20px 60px;
+}
+
+.bodyContentSection {
+	display: inline-block;
+	border: 1px solid #eee;
+	border-radius: 3px;
+	box-sizing: border-box;
+	width: 800px;
+	vertical-align: top;
+	margin: auto;
+	padding: 20px;
+	box-shadow: 0px 0px 5px #eee;
+	background-color: #fff;
+}
+
+.bodyContentSection.two {
+	border: none;
+	box-shadow: none;
+	display: flex;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.bodyContentSection.three {
+	display: flex;
+}
+
+
+h2 {
+	text-transform: uppercase;
+	font-family: "Permanent Marker", sans-serif;
+}
+
+.contentSubtitle {
+	margin-bottom: 20px;
+	font-size: 24px;
+}
+
+.bodyContentBullets {
+	margin: auto;
+}
+
+.bottomTile {
+	margin: auto;
+}
+
+.bottomTile.one {
+	margin-right: 20px;
+}
+
+.waddles {
+	width: 200px;
+}
+
+.footer {
+
+}
+
+.footerContent {
+	height: 60px;
+	background-color: DarkSlateGray;
+	margin: auto;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.footerCopyright {
+	color: #fff;
+	margin-left: 20px;
+}
+
+.bodyContentBullets {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.bulletImage {
+	height: 200px;
+	margin-bottom: 20px;
+}
