@@ -1,0 +1,26 @@
+@import url(reset.css);
+
+div {
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	margin: 20px auto;
+	transition: all 1s 0.1s ease-out;
+}
+
+.translate:hover {
+	transform: translate(20px, 30px);
+}
+
+.rotate:hover {
+	transform: rotate(30deg);
+}
+
+.skew:hover {
+	transform: skew(20deg, 20deg);
+}
+
+.scale:hover {
+	transform: scale(1.05);
+	transition: all 0.3s 0s ease-out;
+}
