@@ -1,0 +1,56 @@
+@import url(reset.css);
+
+.header {
+	height: 60px;
+	display: flex;
+	align-items: center;
+	background-color: yellow;
+}
+
+h1 {
+	margin-left: 20px;
+}
+
+.content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 15px;
+}
+
+.contentItem {
+	border: 1px solid lightgrey;
+	margin: 5px;
+	width: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.itemTitle {
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+
+
+@media screen and (min-width: 668px) {
+	
+.content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 40px 15px;
+}
+
+	.contentItem {
+	border: 1px solid lightgrey;
+	margin: 5px;
+	width: calc((100% - 20px)/2);
+	padding: 20px;
+
+/*mediaq 668*/
+}
+
+
+}
