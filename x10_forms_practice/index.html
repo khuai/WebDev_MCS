@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Form Practice</title>
+	<meta charset="utf-8">
+	<meta description="MCS Form Development Practice">
+	<meta keywords="Forms, MCS, Practice">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div>
+		<header class="header">
+			<img src="https://www.freelogodesign.org/Content/img/logo-ex-7.png" alt="random logo" class="logo">
+			<h1 class="welcome">Please share with us some love.</h1>
+		</header>
+		<form method="POST" action="https://secure.mailjol.net/allforms/u/44f9b732.php">
+			<fieldset>
+				<label for="name">Name</label>
+				<input type="text" name="name" placeholder="Your name">
+				<label for="email">Email</label>
+				<input type="email" name="email" placeholder="Your email...">
+				<label for="topic">Topic</label>
+				<select name="topic">
+					<option value="" id="placeholder">Select topic...</option>
+					<option value="sales">Sales</option>
+					<option value="problem">Have problem</option>
+					<option value="idea">Share idea</option>
+					<option value="hi">Just to say hi</option>
+				</select>
+				<label for="message">Your Message</label>
+				<textarea name="message"></textarea>
+			</fieldset>
+			<input type="submit">
+		</form>
+	</div>
+</body>
+</html>

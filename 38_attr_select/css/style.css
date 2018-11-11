@@ -1,0 +1,9 @@
+@import url(reset.css);
+
+img[src="https://upload.wikimedia.org/wikipedia/en/2/20/Pivotal_Java_Spring_Logo.png"] {
+	width: 300px;
+}
+
+img[alt="summer"] {
+	width: 600px;
+}
